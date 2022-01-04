@@ -1,0 +1,111 @@
+body {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    font-family: 'Roboto';
+    
+    background-image: url(https://play-lh.googleusercontent.com/Co_YPBxibpPWk4o5rN4CkL43E9_ZV4JkMWY9I9G92Woa7b1cfF316bIyNkcTz8J2dbM);
+    
+    background-size: 600px;
+
+}
+#menu,
+  footer {
+    background-color: palevioletred;
+    
+    /*color: rgb(116, 209, 209);*/
+    height: 50px;
+    justify-content: end;
+}
+
+#menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 160px;}
+   
+#menu ul {
+    padding: 7px;
+    list-style: none;
+   
+}
+#menu ul li,
+#menu ul li a {
+    display: block;
+    background-color: rgb(235, 219, 219); 
+
+}
+       
+#menu a {
+    color:rgb(250, 34, 117);
+    text-decoration: none;
+    font-size: 22px;
+}
+ 
+#menu ul {
+    display: flex;
+    
+}
+        
+#menu ul li a {
+    padding: 7px;
+    
+}
+        
+#menu input {
+    height: 30px;
+}
+               
+#menu div {
+    display: flex;
+}
+main {
+    flex: 10;
+    padding: 0 160px;
+    text-align: center;
+}
+        
+main header h1 {
+    margin: 0;
+    font-size: 85px;
+    font-family: 'Géo-santé';
+    color: #2e82cc;
+    font-size: 50px;
+    padding-top: 55px;
+    justify-content: space-between;
+    
+}
+
+main header h2 {
+   height: 220px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   font-size: 30px;
+   color:rgb(200, 13, 218);
+   padding-top: 0px;  
+}
+main header h3 {
+    color: rgb(69, 211, 154);
+}
+
+div{
+    color: rgb(185, 174, 177);
+    font-size: 20px;
+}
+aside{
+    font-size: 22px;
+    color:rgb(50, 70, 70);  
+}
+
+footer{
+    height: 500px;
+    width: 970px;
+    background-image: url(https://static.latribune.fr/full_width/805456/apitrak-e-sante.jpg);
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    background-size: 1000px;
+}
