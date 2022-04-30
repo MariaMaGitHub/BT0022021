@@ -1,0 +1,31 @@
+body {
+    /*background-image: url(https://www.test-achats.be/-/media/ta/images/home/hightech/internet_internet/dossiers/ds_internet/localisation_1280x720.jpg?rev=e75d87a7-3750-42a8-be5c-9bb40c71ac5f&hash=DCBAC586C1B1322241FEC6F1C87A924D);*/
+    background-image: url(https://img.freepik.com/vecteurs-libre/petit-docteur-se-tient-pres-du-signe-gps-docteur-recherche-geolocalisation-symbole-geolocalisation-application-service-medecine-navigation-gps-cartes-obtenir-metaphores-directions_419010-426.jpg?size=338&ext=jpg&ga=GA1.2.1940337123.1637107200);
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+
+header {
+    margin-top: 0px;
+    height: 70px;
+    width: 1020px;
+    font-family: 'Times New Roman', Times, serif;
+    position: left;
+    font-size: 20px;
+    color: rgb(240, 234, 228);
+    background-image: linear-gradient(rgb(130, 244, 248), rgb(116, 178, 236));
+}
+
+#menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 160px;
+}
+
+aside {
+    font-size: 25px;
+    color: rgb(17, 17, 16);
+    text-align: center;
+}

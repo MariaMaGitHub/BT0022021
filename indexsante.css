@@ -1,0 +1,250 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 1326px;
+    font-family: 'Roboto';
+    background-image: url(https://media3.woopic.com/api/v1/images/219%2Fwebedia-articles%2F1f8%2Ff78%2F8929bb2b52a959d9d21d2d2e61%2Fgeolocalisation-5-applications-qui-ont-du-bon%7C1355614-des-applications-vous-permettent-de-loca-orig-2.jpg?facedetect=1&quality=85);
+    background-repeat: no-repeat;
+    background-size: 1326px;
+}
+
+header {
+    height: 86px;
+    width: 1326px;
+    font-family: 'Times New Roman', Times, serif;
+    position: left;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    background-image: linear-gradient(rgb(199, 248, 248), rgb(181, 232, 245));
+}
+
+#menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 160px;
+}
+
+#menu a {
+    color: #fad689;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu ul li a {
+    padding: 5px;
+}
+
+#menu ul li a:hover {
+    color: rgb(248, 230, 230);
+}
+
+#menu ul li,
+#menu ul li a {
+    display: block;
+    background-color: rgb(192, 180, 151);
+    font-size: 25px;
+}
+
+#menu a {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#menu img {
+    height: 100%;
+}
+
+#menu div {
+    display: flex;
+}
+
+main section {
+    border-top: 1px solid #d8d8d8;
+}
+
+main section>h5 {
+    width: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+main h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Géo-santé';
+    color: #1f1f1e;
+    padding-top: 45px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main h2 {
+    margin: 45px;
+    font-size: 20px;
+    font-family: 'Géo-santé';
+    color: #2d2e2e;
+    padding-top: 40px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+section {
+    justify-content: space-between;
+}
+
+main h3 {
+    text-align: center;
+}
+
+div {
+    font-size: 12px;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+
+.col_white_amrc {
+    color: rgb(14, 13, 13);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(185, 164, 118);
+    min-height: 250px;
+    padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    color: rgb(19, 18, 18);
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.mb10 {
+    padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+    padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+    color: rgb(12, 12, 12);
+}
+
+.footer_ul_amrc li a:hover {
+    color: rgb(250, 232, 232);
+    text-decoration: none;
+}
+
+.fleft {
+    float: left;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+    display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+    text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+    margin-top: 5px;
+}
+
+.bottom_border {
+    border-bottom: 1px solid #67f7e3;
+    padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+    list-style-type: none;
+    padding: 0px;
+    display: table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+    display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+    color: rgb(141, 248, 252);
+    margin: 0 12px;
+}
+
+.social_footer_ul {
+    display: table;
+    margin: 15px auto 0 auto;
+    list-style-type: none;
+}
+
+.social_footer_ul li {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.social_footer_ul li a {
+    color: rgb(126, 125, 119);
+    border: 1px solid rgb(154, 240, 247);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.social_footer_ul li i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+    min-height: 200px;
+}
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}

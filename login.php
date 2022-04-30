@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<?php
+    <?php
 require('config.php');
 session_start();
 if (isset($_POST['username'])){
@@ -17,22 +19,23 @@ if (isset($_POST['username'])){
   $rows = mysqli_num_rows($result);
   if($rows==1){
       $_SESSION['username'] = $username;
-      header("Location: index.php");
+      header("Location: indexsante.html");
   }else{
     $message = "Le nom d'utilisateur ou le mot de passe est incorrect.";
   }
 }
 ?>
-<form class="box" action="" method="post" name="login">
-<h1>Geosante</h1>
-<h1 class="box-title">Connexion</h1>
-<input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur">
-<input type="password" class="box-input" name="password" placeholder="Mot de passe">
-<input type="submit" value="Connexion " name="submit" class="box-button">
-<p class="box-register">Mot de passe oublier? <a href="register.php">S'inscrire ici</a></p>
-<?php if (! empty($message)) { ?>
-    <p class="errorMessage"><?php echo $message; ?></p>
-<?php } ?>
-</form>
+    <form class="box" action="" method="post" name="login">
+        <h1>Geosante</h1>
+        <h1 class="box-title">Connexion</h1>
+        <input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur">
+        <input type="password" class="box-input" name="password" placeholder="Mot de passe">
+        <input type="submit" value="Connexion " name="submit" class="box-button">
+        <p class="box-register">Mot de passe oublier? <a href="register.php">S'inscrire ici</a></p>
+        <?php if (! empty($message)) { ?>
+        <p class="errorMessage"><?php echo $message; ?></p>
+        <?php } ?>
+    </form>
 </body>
+
 </html>
